@@ -1,42 +1,20 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Apply Poppins font to all relevant elements */
+body, p, span, h1, h2, h3, h4, h5, h6, div, nav, strong, button, a, input, textarea, select, label, li {
+  font-family: 'Poppins', sans-serif !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+.bg-lite-green {
+  background-color: #ddf8ef;
+}
+.primary-btn{
+  background: var(--primary-main, rgba(0, 167, 111, 1));
+
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.form-control::placeholder {
+  color: #adb5bd !important;
 }

@@ -1,0 +1,31 @@
+.primary-btn{
+    background-color: #3227f8;
+    border-color: #7a73f1;
+    color: white;
+}
+
+
+.primary-btn:hover{
+    background-color: #7a73f1;
+    border-color: #7a73f1;
+    color: white;
+}
+
+.bg-gray-50{
+    background-color: #e8efed;
+}   
+
+.bg-gray-100{
+    background-color: #e5e5e5;
+}   
+
+.bg-white{
+    background-color: white;
+}
+.text-green-600{
+    color: #004b50;
+}
+.border-bottom-green{
+    border-bottom: 3px solid #004b50 !important;
+}
+
